@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DETALHAMENTO</title>
     <link rel="stylesheet" href="../_CSS/PersonDetail.css">
 </head>
+
 <body>
-    
+    <div id="principal">
+        <form method="post" action="../_PHP/PersonDetail.php">
+            <p>Raça:</p>
+            <select name="raca">
+                <option>Sylvaris</option>
+                <option>Ignicors</option>
+                <option>Aethelis</option>
+                <option>Umbrions</option>
+                <option>Glaciomorfos</option>
+            </select>
+            <p>Altura do Personagem:</p>
+            <div id="b">
+            <label><input class="a" type="radio" name="tamanho" required>Pequeno(Menor que 1.60)</label><br>
+            <label><input class="a" type="radio" name="tamanho" required>Médio(Entre 1.60 até 1.80)</label><br>
+            <label><input class="a" type="radio" name="tamanho" required>Alto(Maior que 1.80)</label><br>
+            </div>
+            <p>Cor do olho:</p>
+            <label><input type="color" name="corolho"></label>
+            <p>Cor da pele:</p>
+            <label><input type="color" name="pele" value="#fbd893"></label>
+            <p>Cor do cabelo:</p>
+            <label><input type="color" name="corcabelo" value="#59240d"></label>
+            <p>Classe:</p>
+            <select name="classe">
+                <option>Paladino</option>
+                <option>Escudeiro</option>
+                <option>Berserk</option>
+                <option>Mago Elemental</option>
+                <option>Bruxo</option>
+            </select>
+            <input id="btt" type="submit" value="FINALIZAR">
+            
+        </form>
+
+    </div>
 </body>
+
 </html>

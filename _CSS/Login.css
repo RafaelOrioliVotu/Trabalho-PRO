@@ -1,0 +1,72 @@
+
+*{
+    font-family: fantasy;
+    p{
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        color: whitesmoke;
+    }
+}
+
+#principal{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 30%;
+    margin-left: 30%;
+    height: 750px;
+    background:linear-gradient(white, rgba(2, 51, 51,0.8), rgba(2, 51, 51,0.8), rgba(2, 51, 51,0.8), rgba(2, 51, 51,0.8), white);
+    text-align: center;
+    padding-top: 200px;
+    border: left right 5px solid black;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 0px;
+}
+#div1{
+    margin: 17px;
+    
+}
+.divs{
+    width: 350px;
+    margin-left: 7px;
+    margin-right: 7px;
+    display: inline-block;
+}
+
+div{
+    border-radius: 10px;
+    border: 2px solid rgb(2, 2, 58);
+}
+
+#divbtt{
+    margin: 17px;
+    input{
+        color: black;
+        border: none;   
+        border-radius: 10px;
+        width: 150px;
+        height: 40px;
+        margin: 10px;
+        background-color: rgba(173, 241, 219, 0.986);
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+body{
+    background-image: url(../_IMAGES/632051.png);
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: cover;
+    margin-top: 0px;
+}

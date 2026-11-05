@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRE-SE</title>
+    <link rel="stylesheet" href="../_CSS/Login.css">
+</head>
+<body>
+    <div id="principal">
+        <form method="post" action="../_PHP/login.php" >
+            <div id="div1">
+                <p>Nome:</p>
+                <input type="text" name="nome" placeholder="Insira seu Nome">
+                <p>Sobrenome:</p>
+                <input type="text" name="Sobrenome" placeholder="Insira seu Sobrenome">
+            </div>
+            <div class="divs">
+                <p>Senha:</p>
+                <input type="password" name="Senha" placeholder="Insira sua Senha">
+                <p>Verificação:</p>
+                <input type="password" name="cSenha" placeholder="Insira sua Senha">
+            </div>
+            <div class="divs">
+                <p>Email:</p>
+                <input type="email" name="email" placeholder="Insira seu Email">
+                <p>Verificação:</p>
+                <input type="email" name="cemail" placeholder="Insira seu Email">
+            </div>
+            <div id="divbtt">
+                <input type="submit" value="LOGIN">
+                <input type="reset" value="RESET">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

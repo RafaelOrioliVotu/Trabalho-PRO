@@ -25,6 +25,10 @@ body {
     width: 100px;
     padding-right: 0px;
     margin-right: 0px;
+    cursor: pointer;
+}
+.alt{
+    color: whitesmoke;
 }
 
 #principal {

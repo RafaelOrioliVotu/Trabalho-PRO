@@ -7,6 +7,31 @@
     <link rel="stylesheet" href="../_CSS/PetCreate.css">
 </head>
 <body>
-    
+    <div id="principal">
+        <form method="post" action="../_PHP/PetCreate.php">
+            <p>|Nome|</p>
+            <input type="text" name="petname" placeholder="Nome do Pet">
+            <p>|Espécie|</p>
+            <select name="especie">
+                <option>Serpente</option>
+                <option>Falcão</option>
+                <option>Lobo</option>
+                <option>Tubarão</option>
+            </select>
+            <p>|Cor Principal|</p>
+            <input type="color" name="corp">
+            <p>|Cor Secundária|</p>
+            <input type="color" name="cors">
+            <p>|Utilidade|</p>
+            <select name="utilidade">
+                <option>Cura</option>
+                <option>Dano</option>
+                <option>Buff</option>
+                <option>Controle</option>
+            </select>
+            <br>
+            <input id="btt" type="submit" value="CRIAR">
+        </form>
+    </div>
 </body>
 </html>

@@ -8,15 +8,18 @@
         color: whitesmoke;
     }
 }
+img{
+    width: 200px;
+}
 
 #principal {
     width: 33%;
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 750px;
+    height: 845px;
     background: linear-gradient(to right, rgba(15, 23, 42, 0.92) 0%, rgba(15, 23, 42, 0.74) 70%, rgba(15, 23, 42, 0.6) 80%, rgba(15, 23, 42, 0) 100%);
     text-align: center;
-    padding-top: 200px;
+    padding-top: 100px;
 
 }
 

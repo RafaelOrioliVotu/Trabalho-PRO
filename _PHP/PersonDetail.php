@@ -10,4 +10,5 @@ $linha = date('d/m/Y H:i:s') . " PERSONDETAIL: " . $raca . " | " . $tamanho . " 
 file_put_contents('../Dados.txt',$linha, FILE_APPEND);
 
 header('location: ../_HTML/PetCreate.html');
+exit();
 ?>

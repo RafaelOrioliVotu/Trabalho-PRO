@@ -6,6 +6,9 @@ body {
     margin-top: 0px;
     margin-left: 0px;
 }
+img{
+    width: 200px;
+}
 
 * {
     font-family: fantasy;
@@ -35,10 +38,10 @@ body {
     width: 33%;
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 750px;
+    height: 905px;
     background: linear-gradient(to right, rgba(29, 17, 53, 0.92) 0%, rgba(29, 17, 53, 0.74) 70%, rgba(29, 17, 53, 0.6) 80%, rgba(29, 17, 53, 0) 100%);
     text-align: center;
-    padding-top: 200px;
+    padding-top: 40px;
 }
 
 #btt {
